@@ -1,13 +1,12 @@
-**Finding Lane Lines on the Road**
+#Finding Lane Lines on the Road**
 
-The goals / steps of this project are the following:
-* Make a pipeline that finds lane lines on the road
-* Reflect on your work in a written report
+##The goals / steps of this project are the following:
+###Make a pipeline that finds lane lines on the road
+###Reflect on your work in a written report
 
 
 
-### Reflection
-
+## Reflection
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
 My pipeline consisted of 5 steps. 
@@ -23,7 +22,9 @@ First, I sperated the left lines from the right one using gradient.
 And, I found the minimum bounding rectangle of each section, and draw the diagonal of it 
 
 Here are some output images of my pipeline
+
 <img src="./test_images_output/output_solidWhiteCurve.jpg" width="480" alt="Output_Sample_1" />
+
 <img src="./test_images_output/output_solidYellowCurve.jpg" width="480" alt="Output_Sample_2" />
 
 
