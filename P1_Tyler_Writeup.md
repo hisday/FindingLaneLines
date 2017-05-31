@@ -1,11 +1,3 @@
-# **Finding Lane Lines on the Road** 
-
-## Writeup Template
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file. But feel free to use some other method and submit a pdf if you prefer.
-
----
-
 **Finding Lane Lines on the Road**
 
 The goals / steps of this project are the following:
@@ -13,11 +5,6 @@ The goals / steps of this project are the following:
 * Reflect on your work in a written report
 
 
-[//]: # (Image References)
-
-[image1]: ./examples/grayscale.jpg "Grayscale"
-
----
 
 ### Reflection
 
@@ -36,10 +23,8 @@ First, I sperated the left lines from the right one using gradient.
 And, I found the minimum bounding rectangle of each section, and draw the diagonal of it 
 
 Here are some output images of my pipeline
-
-[image2]: ./test_images_output/output_solidWhiteCurve.jpg "Output_Sample_1"
-[image3]: ./test_images_output/output_solidYellowCurve.jpg "Output_Sample_2"
-
+<img src="./test_images_output/output_solidWhiteCurve.jpg" width="480" alt="Output_Sample_1" />
+<img src="./test_images_output/output_solidYellowCurve.jpg" width="480" alt="Output_Sample_2" />
 
 
 ### 2. Identify potential shortcomings with your current pipeline
