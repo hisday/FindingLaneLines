@@ -1,8 +1,8 @@
 # Finding Lane Lines on the Road
 
-## The goals / steps of this project are the following:
-### Make a pipeline that finds lane lines on the road
-### Reflect on your work in a written report
+### The goals / steps of this project are the following:
+1. Make a pipeline that finds lane lines on the road
+2. Reflect on your work in a written report
 
 
 
@@ -21,7 +21,10 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 First, I sperated the left lines from the right one using gradient.
 And, I found the minimum bounding rectangle of each section, and draw the diagonal of it 
 
-Here are some output images of my pipeline
+Please refer the output video file in the "test_videos_output" directory in Git repository.
+(https://github.com/hisday/FindingLaneLines)
+
+Here are some output images of my pipeline. 
 
 <img src="./test_images_output/output_solidWhiteCurve.jpg" width="480" alt="Output_Sample_1" />
 
